@@ -64,14 +64,18 @@ output += '\n';
 output += '(!a || !c) : ' + (!a || !c);
 output += '\n';
 
+alert(output);
+
 let first_name = 'garvishtha';
 let last_name = 'arya';
 let email = 'arya0009@algonquinlive.com';
 
-output += 'My name is ' + first_name;
-output += ' ' +last_name;
-output += '. ';
-output += 'You can contact me at ' + email;
+let task = '';
+
+task += 'My name is ' + first_name;
+task += ' ' +last_name;
+task += '. ';
+task += 'You can contact me at ' + email;
 
 
-alert(output);
+alert(task);
